@@ -1,4 +1,4 @@
-# some-repo
-This is a repo.
-
-Here, I've added a line.
+# Snake in Unity 2D
+This repo contains:
+- The Snake game project files for Unity. The C# scripts are found under /Snake/Assets/Scripts/
+- A zip file containing a sample build of the game. Simply extract the files and double-click Snake.exe
