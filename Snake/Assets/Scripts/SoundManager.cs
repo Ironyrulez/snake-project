@@ -33,7 +33,7 @@ public static class SoundManager {
     }
 
     public static void AddButtonSounds(this Button_UI buttonUI) {
-        buttonUI.MouseOverOnceFunc += () => SoundManager.PlaySound(Sound.ButtonOver);
-        buttonUI.ClickFunc += () => SoundManager.PlaySound(Sound.ButtonClick);
+        buttonUI.MouseOverOnceFunc += () => PlaySound(Sound.ButtonOver);
+        buttonUI.ClickFunc += () => PlaySound(Sound.ButtonClick);
     }
 }

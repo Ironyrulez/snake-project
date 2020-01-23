@@ -26,6 +26,7 @@ public static class Score {
         return PlayerPrefs.GetInt("highscore", 0);
     }
 
+    // Test if current score beats the highscore, if so - overwrite
     public static bool TrySetNewHighscore() {
         int highscore = GetHighscore();
         if (score > highscore) {

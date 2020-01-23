@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ *  Exposes game assets to editor
+ */
 public class GameAssets : MonoBehaviour
 {
     

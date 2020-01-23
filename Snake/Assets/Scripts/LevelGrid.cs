@@ -25,6 +25,10 @@ public class LevelGrid {
 
     private void SpawnFood() {
         // Create a range of valid grid indices (i.e: grid spaces not occupied by the snake)
+        // Lower-left corner has index 0
+        // Lower-right corner has index <width - 1>
+        // Upper-left corner has index <(height - 1) * width>
+        // Upper-right corner has index <height * width>
         ISet<int> exclude = new HashSet<int>();
         foreach (Vector2Int position in snake.GetFullSnakePositionList()) {
             exclude.Add(ConvertPositionToIndex(position));

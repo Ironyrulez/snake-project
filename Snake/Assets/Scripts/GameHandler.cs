@@ -26,6 +26,7 @@ public class GameHandler : MonoBehaviour {
     }
 
     private void Update() {
+        // Listen for pausing
         if (Input.GetKeyDown(KeyCode.Escape)) {
             if (paused) {
                 ResumeGame();
